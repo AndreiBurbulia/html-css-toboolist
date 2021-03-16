@@ -5,7 +5,7 @@
     padding: 0;
 }
 body{
-    background-color: lightgray;
+    background-color: #f6f8f9;
 }
 /* /General */
 
@@ -16,13 +16,14 @@ body{
 
 /* Header */
 header{
-    background-color: lightblue;
+    background-color: white;
     height: 100px;
 }
 
 #logo{
-    height: 80px;
+    height: 70px;
     margin: 10px 0 0 10px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #name_logo{
@@ -38,8 +39,10 @@ header{
 main{
     background-color: white;
     width: 80%;
-    margin: auto;
+    margin:50px auto auto auto;
+    border-radius: 5px;
 }
+
 .button{
     display: inline-block;
     padding: 5px;
@@ -48,10 +51,10 @@ main{
 }
 
 .button.task{
-    background-color: cornflowerblue;
-    border: 1px solid cornflowerblue;
-
+    background-color: #47adf1;
+    border: 1px solid #47adf1;
     color: white;
+    margin-left: 40px;
 
 }
 
@@ -106,42 +109,40 @@ span.list_element::after{
 
 span.list_element.editorial::after{
     content: "Editorial";
-    background-color: cornflowerblue;
-    border-color: cornflowerblue;
+    background-color: #45abea;
+    border-color: #45abea;
 }
 
 span.list_element.q1_goals::after{
     content: "Q1 Goals";
-    background-color: purple;
-    border-color: purple;
+    background-color: #9c72e4;
+    border-color: #9c72e4;
 }
 
 span.list_element.recruiting::after{
     content: "Recruiting";
-    background-color: green;
-    border-color: green;
+    background-color: #64c0a9;
+    border-color: #64c0a9;
 }
 
 span.list_element.mobile::after{
     content: "Mobile";
-    background-color: orange;
-    border-color: orange;
+    background-color: #f29e33;
+    border-color: #f29e33;
 }
 
 span.list_element.website::after{
     content: "Website";
-    background-color: red;
-    border-color: red;
+    background-color: #d863a1;
+    border-color: #d863a1;
 }
 
 span.list_element.sales::after{
     content: "Sales";
-    background-color: greenyellow;
-    border-color: greenyellow;
+    background-color: #b0c926;
+    border-color: #b0c926;
 }
 /* /Main */
 
-/* Footer */
-/* /Footer */
 
 
