@@ -1,0 +1,207 @@
+/* General */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(https://image.freepik.com/premium-vector/top-view-desk-background-with-laptop-digital-devices-office-objects-books-documents_87561-95.jpg);
+
+}
+/* /General */
+
+/* Utility */
+
+/* /Utility */
+
+
+/* Header */
+header{
+    background-color: white;
+    height: 100px;
+}
+
+#logo{
+    height: 70px;
+    margin: 10px 0 0 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#name_logo{
+    display: inline-block;
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 100px;
+    vertical-align: top;
+}
+
+#menu_icon{
+    height: 90px;
+    float: right;
+}
+/* /Header */
+
+/* Main */
+main{
+    background-color: white;
+    width: 80%;
+    margin:50px auto auto auto;
+    border-radius: 5px;
+    position: relative;
+}
+
+.button{
+    display: inline-block;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 10px 0px 10px 5px;
+}
+
+.button.task{
+    background-color: #47adf1;
+    border: 1px solid #47adf1;
+    color: white;
+    margin-left: 40px;
+
+}
+
+.button.section{
+    border: 1px solid lightgray;
+    color: lightgray;
+}
+
+.button.modifica{
+    background-color: blanchedalmond;
+    border: 1px solid blanchedalmond;
+}
+
+.button_search{
+    float: right;
+    margin: 8px 10px auto 0 ;
+    height: 33px;
+    width: 33px;
+    background-image: url(https://listimg.pinclipart.com/picdir/s/485-4851736_free-png-search-icon-search-icon-free-download.png);
+    background-size: contain;
+}
+
+.search_bar{
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 1px;
+    font-size: 17px;
+    border: 1px solid black;
+}
+
+
+hr{
+    border: 1px solid lightgray;
+}
+
+
+.sub_container{
+    margin-top: 20px;
+    margin: 30px 0 0 40px;
+    line-height: 40px;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.list_element{
+    display: block;
+
+}
+
+span.list_element::before{
+    font-size: 10px;
+    padding: 4px;
+    border-radius: 100%;
+    margin-right: 5px;
+    border: 1px solid;
+}
+
+span.list_element.check::before{
+    content: "\2713";
+    color: green;
+    border-color: green;
+}
+span.list_element.cross::before{
+    content: "\2613";
+    color: red;
+    border-color: red;
+}
+
+span.list_element::after{
+    font-size: 10px;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+    margin-left: 10px;
+    color: white;
+}
+
+span.list_element.editorial::after{
+    content: "Editorial";
+    background-color: #45abea;
+    border-color: #45abea;
+}
+
+span.list_element.q1_goals::after{
+    content: "Q1 Goals";
+    background-color: #9c72e4;
+    border-color: #9c72e4;
+}
+
+span.list_element.recruiting::after{
+    content: "Recruiting";
+    background-color: #64c0a9;
+    border-color: #64c0a9;
+}
+
+span.list_element.mobile::after{
+    content: "Mobile";
+    background-color: #f29e33;
+    border-color: #f29e33;
+}
+
+span.list_element.website::after{
+    content: "Website";
+    background-color: #d863a1;
+    border-color: #d863a1;
+}
+
+span.list_element.sales::after{
+    content: "Sales";
+    background-color: #b0c926;
+    border-color: #b0c926;
+}
+
+.note{
+    display:inline-block;
+    height: 80%;
+    width: 35%;
+    background-image: url(https://i.pinimg.com/originals/c0/1b/65/c01b650b48baf8211b5baca24a78d284.png);
+    background-size: contain;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    
+}
+
+.note_title{
+    display: inline-block;
+    position: absolute;
+    height: 5%;
+    width: 35%;
+    bottom: 80%;
+    right: 0;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+}
+/* /Main */
+
+
+
