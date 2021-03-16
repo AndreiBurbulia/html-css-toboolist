@@ -62,6 +62,29 @@ main{
 hr{
     border: 1px solid lightgray;
 }
+
+.list_element{
+    display: block;
+
+}
+
+span.list_element::before{
+    content: "\2713";
+    color: green;
+    border:1px solid green;
+    padding: 2px;
+    border-radius: 100%;
+    margin-right: 5px;
+}
+
+span.list_element::after{
+    content: "Editorial";
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 3px;
+    margin-left: 10px;
+
+}
 /* /Main */
 
 /* Footer */
