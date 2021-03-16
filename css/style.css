@@ -4,7 +4,6 @@
     margin: 0;
     padding: 0;
 }
-
 /* /General */
 
 /* Utility */
@@ -13,6 +12,23 @@
 
 
 /* Header */
+header{
+    background-color: lightblue;
+    height: 100px;
+}
+
+#logo{
+    height: 80px;
+    margin: 10px 0 0 10px;
+}
+
+#name_logo{
+    display: inline-block;
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 100px;
+    vertical-align: top;
+}
 /* /Header */
 
 /* Main */
